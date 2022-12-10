@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.movie-category {
+    @apply flex
+    items-center
+    p-1
+    h-12
+    my-1
+    bg-transparent
+    border-2
+    border-blue-500
+    text-blue-500
+    rounded-full
+    cursor-pointer;
+}
+
+.category-checkbox {
+    @apply block
+    cursor-pointer
+    appearance-none
+    h-9 w-9
+    border
+    border-blue-500
+    rounded-full
+    checked:bg-blue-600
+    checked:border-transparent
+    focus:outline-none;
+}
